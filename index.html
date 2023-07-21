@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Schoolbell&family=Tsukimi+Rounded&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Resource/Icon/Icon Yotsuba.ico">
+    <script src="script.js"></script>
+    <title>Nox Converter</title>
+</head>
+<body>
+    <div class="header">Nox ASCII Converter</div>
+    <div class="container">
+        <div class="box-input">
+            <textarea id="inputUser" rows="4" placeholder="Aku Sayang Teto..."></textarea>
+        </div>
+        <div class="box-output">
+            <textarea id="outputUser" rows="4" readonly></textarea>
+        </div>
+        <div class="button-wrap">
+            <button class="btn btn-convert" onclick="ascii()">Convert Teks</button>
+            <button class="btn btn-copy" onclick="copyText()">Copy Teks</button>
+        </div>
+        <div class="center-text">
+            <p class="teks1">Klik Teto kalo pengen liat Source Code JS-nya <span class="teks2">テトをクリックする!</span> :3 <br />Kalian bisa Kontak Nox dibawah!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/adamus.noxius?mibextid=ZbWKwL" target="blank" class="social-icons"><i class="fab fa-facebook"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnwggcbvZQfXRxrfZkXDcRRmnBhjgKltKpcxtXdFPwwdSlpBbNLgzHsChbPRLTbGvmhhW" target="blank" class="social-icons"><i class="far fa-envelope"></i></a>
+        <a href="https://instagram.com/noxshot.id?igshid=ZDc4ODBmNjlmNQ==" target="blank" class="social-icons"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="amaiMono">
+        <audio id="bodoh" src="Resource/Music/Kimi wa Jitsuni baka dana vol-red.mp3"></audio>
+        <a href="script.js" target="blank">
+            <img class="leftMono" src="Resource/Teto 1.png" alt="Istrinya Nox :v" title="Teto, Istrinya Nox" onclick="kamuBodoh()">
+        </a>
+        <img class="rightMono" src="Resource/Yotsuba 1.png" alt="Anaknya Nox :v" title="Yotsuba, Anaknya Nox">
+    </div>
+</body>
+</html>
